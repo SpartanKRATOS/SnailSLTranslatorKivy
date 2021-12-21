@@ -34,3 +34,17 @@ pip install kivy[full] kivy_examples
 python action.py
 </pre>
 <br/>
+
+##For the Action Detection Tutorial.ipynb
+<br />
+<b>Step 1.</b> do the steps above
+<br/><br/>
+<br />
+<b>Step 2.</b> install and run jupyter notebook
+<pre>
+pip install notebook
+jupyter notebook command or python-m jupyter notebook
+</pre>
+<br/>
+<br/><br/>
+
