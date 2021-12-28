@@ -48,3 +48,5 @@ jupyter notebook command or python-m jupyter notebook
 <br/>
 <br/><br/>
 
+## actionDetection.py script is the detection script cleaned up
+<b>execute it wit.</b> python actionDetection.py
