@@ -50,3 +50,36 @@ jupyter notebook command or python-m jupyter notebook
 
 ## actionDetection.py script is the detection script cleaned up
 <b>execute it wit.</b> python actionDetection.py
+
+## For the Raspberry Pi 4 
+<br />
+<b>Step 1.</b> you'll need python 3.8, upgrade you Raspberry Pi config
+<br/><br/>
+<br />
+<b>Step 2.</b> install dependencies with python 3.8 and pip3
+<pre>
+install tensorflow2.1 on your RPI4 using this video https://www.youtube.com/watch?v=GNRg2P8Vqqs
+sudo pip3 install mediapipe-rpi4
+sudo apt-get install libhdf5-dev -y 
+sudo apt-get install libhdf5-serial-dev –y 
+sudo apt-get install libatlas-base-dev –y 
+sudo apt-get install libjasper-dev -y 
+sudo apt-get install libqtgui4 –y
+sudo apt-get install libqt4-test –y
+pip3 install opencv-contrib-python==4.1.0.25
+sudo apt-get install python3-numpy
+sudo apt-get install libblas-dev
+sudo apt-get install liblapack-dev
+sudo apt-get install python3-dev 
+sudo apt-get install libatlas-base-dev
+sudo apt-get install gfortran
+sudo apt-get install python3-setuptools
+sudo apt-get install python3-scipy
+sudo apt-get update
+sudo apt-get install python3-h5py
+pip3 install --upgrade scipy
+pip3 install --upgrade cython
+pip3 install keras 
+</pre>
+<br/>
+<br/><br/>
