@@ -35,7 +35,7 @@ python action.py
 </pre>
 <br/>
 
-## For the Action Detection Tutorial.ipynb (inspired by https://github.com/nicknochnack/ActionDetectionforSignLanguage repo) 
+## For the Action Detection Tutorial.ipynb (inspired by https://github.com/nicknochnack/ActionDetectionforSignLanguage course 'thanks Nick :D') 
 <br />
 <b>Step 1.</b> do the steps above
 <br/><br/>
