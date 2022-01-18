@@ -23,6 +23,7 @@ import sys
 
 
 # Rest API
+#By Salah
 app = Flask(__name__)
 cors = CORS(app, resources={r"/foo": {"origins": "*"}})
 app.config['CORS_HEADERS'] = 'Content_Type'
@@ -40,8 +41,6 @@ def get_data():
                     #exec(recognition)
                 p = subprocess.Popen(['python3', '/home/pi/Desktop/SNAILTranslation/SnailSLTranslatorKivy-main/actionDetection.py'])
                 
-                sleep(200)
-                p.kill()
                 return jsonify(order)
             except (IndexError, IOError) as e:
              
@@ -59,7 +58,8 @@ def get_data():
         except (IndexError, IOError) as e:
      
             return jsonify({'error': e.message}), 503
-        
+ 
+#By Tarik
 @app.route('/action/stop', methods = ['GET'])
 @cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
 def stop():
@@ -71,6 +71,7 @@ def stop():
   
 def get_pid():
     return int(subprocess.check_output(['pgrep', '-f', '/home/pi/Desktop/SNAILTranslation/SnailSLTranslatorKivy-main/actionDetection.py']).strip())
+
 try:
     app.run()
 
