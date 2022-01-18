@@ -82,4 +82,27 @@ pip3 install --upgrade cython
 pip3 install keras 
 </pre>
 <br/>
+<b>Step 3.</b> Flask comes pre installed in the RPI4
+<pre>
+if you do not have it installed
+sudo pip3 install flask
+</pre>
+<b>Step 4.</b> Hosting the flask server on the internet
+<pre>
+-Browse to ngrok.com and sign up for an account. Afterwards, go to the download page and download the Linux/Arm version.
+-Go to the dashboard auth page and copy the Tunnel AuthToken to the clipboard. This will provide HTTPS secure communication.
+-Open a terminal and create a directory called ngrok. CD into the new folder and unzip the Ngrok download.
+-Run Ngrok with the authtoken switch using the token you just copied to the clipboard. This only has to be done once. 
+-Use the http switch to start the Ngrok service on port 5000.
+<b>Commands:</b>
+mkdir ngrok
+cd ngrok
+<br/>
+unzip your downloaded file in the ngrok directory that you have created.
+<br/>
+run:
+ngrok authtoken <Your AuthToken That You Have Copied After Creating The Account>
+ngrok http 5000 (run this after you have ran your flask server in localhost)
+</pre>
+<br/>
 <br/><br/>
