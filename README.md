@@ -35,19 +35,6 @@ python action.py
 </pre>
 <br/>
 
-## For the Action Detection Tutorial.ipynb (inspired by https://github.com/nicknochnack/ActionDetectionforSignLanguage course 'thanks Nick :D') 
-<br />
-<b>Step 1.</b> do the steps above
-<br/><br/>
-<br />
-<b>Step 2.</b> install and run jupyter notebook
-<pre>
-pip install notebook
-jupyter notebook command or python-m jupyter notebook
-</pre>
-<br/>
-<br/><br/>
-
 ## actionDetection.py script is the detection script cleaned up
 <b>execute it wit.</b> python actionDetection.py
 
